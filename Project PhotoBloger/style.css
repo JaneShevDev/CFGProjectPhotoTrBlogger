@@ -1,0 +1,306 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Proza Libre", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 20px 0;
+}
+
+.section-title {
+  position: relative;
+  font-size: 36px;
+  padding: 0 60px;
+  color: #218c74;
+  font-family: "Calistoga", cursive;
+}
+
+/* Splash */
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://i.postimg.cc/DyTgk1mG/pexels-diego-benjam-n-13806105.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.splash i {
+  font-size: 30px;
+  background: #00cec9;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #c7ecee;
+  border-radius: 50%;
+}
+
+.page-title {
+  color: #c7ecee;
+  font-size: 40px;
+  margin: 48 0 0 0;
+  position: relative;
+  font-family: "Calistoga", cursive;
+}
+
+.page-title::after {
+  background: #00cec9;
+  position: absolute;
+  content: "";
+  bottom: -24px;
+  left: 50%;
+  width: 200px;
+  height: 10px;
+  transform: translateX(-50%);
+  border-radius: 40%;
+}
+
+.page-subtitle {
+  color: #c7ecee;
+  font-size: 25px;
+  margin: 48 0 0 0;
+  position: relative;
+}
+
+/* Intro */
+.intro {
+  background: #fff;
+  margin: auto;
+  padding: 15px 0 15px 0;
+}
+
+.intro p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 48px 0;
+  font-size: 24px;
+  border-top: 3px #00cec9 solid;
+  border-bottom: 3px #00cec9 solid;
+  color: #218c74;
+}
+
+.section-title::after {
+  background: #00cec9;
+  position: absolute;
+  content: "";
+  bottom: -12px;
+  left: 50%;
+  width: 70px;
+  height: 10px;
+  transform: translateX(-50%);
+  border-radius: 40%;
+}
+
+/* About */
+.about {
+  background: #dff9fb;
+  margin: auto;
+  padding: 15px 0 15px 0;
+}
+
+.about p {
+  color: #218c74;
+  font-size: 24px;
+}
+
+/* Serch*/
+
+.search-container {
+  margin: auto;
+  padding: 20px 0;
+}
+
+#searchBar {
+  margin: auto;
+  width: 240px;
+  height: 50px;
+  border-width: 0.05cm;
+  border-color: aquamarine;
+  border-radius: 10%;
+  font-family: "Proza Libre", sans-serif;
+  font-size: 15px;
+}
+
+.button-serch {
+  background: #00cec9;
+  content: "";
+  border-radius: 10%;
+  border: none;
+  width: 100px;
+  height: 30px;
+  color: white;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* Photo */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #218c74;
+  font-family: "Proza Libre", sans-serif;
+}
+
+li {
+  position: relative;
+}
+
+.photo-image {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.photo.right .photo-image {
+  right: 0;
+}
+
+.photo.right .photo-description {
+  padding: 36px 55% 36px 0;
+  text-align: right;
+}
+
+.photo.left .photo-description {
+  padding: 36px 0 36px 55%;
+  text-align: left;
+}
+
+.photo-image img:hover {
+  transform: scale(2);
+}
+
+.photo-image img {
+  transition: all 1s;
+}
+
+.buttonLeft {
+  width: 160px;
+  height: 55px;
+  position: relative;
+  margin-left: 940px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: #218c74;
+  color: white;
+  font-family: "Proza Libre", sans-serif;
+  border: none;
+  padding: 15px 15px;
+  display: block;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.buttonRight {
+  width: 160px;
+  height: 55px;
+  position: relative;
+  margin-right: 940px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: #218c74;
+  color: white;
+  font-family: "Proza Libre", sans-serif;
+  border: none;
+  padding: 15px 15px;
+  display: block;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/*HIDDEN GALLERY*/
+#hiddenGalFrance {
+  margin: auto;
+  padding: 10px;
+  display: none;
+}
+#hiddenGalRome {
+  margin: auto;
+  padding: 10px;
+  display: none;
+}
+#hiddenGalCanada {
+  margin: auto;
+  padding: 10px;
+  display: none;
+}
+
+/*Form*/
+.form {
+  margin: auto;
+  padding: 15px 0 15px 0;
+  background: #c7ecee;
+}
+
+.form-block {
+  background: #218c74;
+  color: black;
+  font-family: "Proza Libre", sans-serif;
+  width: 500px;
+  display: block;
+  display: inline-block;
+}
+
+.buttonSubmit {
+  background: #00cec9;
+  content: "";
+  border-radius: 10%;
+  border: none;
+  width: 100px;
+  height: 30px;
+  color: white;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-h6 {
+  margin: 0;
+}
+
+.page-footer {
+  color: white;
+  background: #218c74;
+  font-size: 17px;
+  font-family: "Proza Libre", sans-serif;
+}

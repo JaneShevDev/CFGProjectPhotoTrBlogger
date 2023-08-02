@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Adam Miller</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calistoga&family=Proza+Libre&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href=" style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header class="splash">
+      <div class="splash-inner">
+        <div class="container">
+          <i class="fa-solid fa-dove"></i>
+          <h1 class="page-title">Adam Miller</h1>
+          <h2 class="page-subtitle">
+            Photographer <br />
+            Blogger<br />Traveler
+          </h2>
+        </div>
+      </div>
+    </header>
+    <section class="intro">
+      <div class="container">
+        <p>
+          Every dream is given to you along with strength, necessary for its
+          implementation.<br />
+          However, you might have to work hard for this.
+        </p>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <h2 class="section-title">A little about me</h2>
+        <p>
+          I look at the world with wide open eyes and see its beauty.<br />
+          I travel a lot and am ready to share my impressions, experience,
+          useful skills and contacts.
+        </p>
+      </div>
+    </section>
+    <div class="search-container">
+      <form class="search-form">
+        <input
+          id="searchBar"
+          type="search"
+          placeholder="Search.."
+          name="text"
+        />
+        <button class="button-serch" type="submit">Search</button>
+      </form>
+    </div>
+    <section class="photo">
+      <div class="container">
+        <h2 class="section-title">Рhoto gallery</h2>
+        <ul>
+          <li class="photo left">
+            <div class="photo-image">
+              <img
+                src="https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                alt="France"
+              />
+            </div>
+            <div class="photo-description">
+              <h3 class="photo-title">France</h3>
+              <p>
+                France is one of the oldest nations on Earth and the most
+                ethnically diverse country in Europe. These deep and broad
+                influences have made France a world leader throughout history in
+                nearly all aspects of culture, including cuisine, wine-making,
+                politics, philosophy, music, art, film, fashion, literature, and
+                sports.
+              </p>
+            </div>
+            <button class="buttonLeft" onclick="myFunctionA()">SEE MORE</button>
+          </li>
+          <div id="hiddenGalFrance">
+            <ul>
+              <li>
+                <img
+                  src="https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                  alt="France"
+                  width="240"
+                />
+              </li>
+              <li>
+                <img
+                  src="https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                  alt="France"
+                  width="240"
+                />
+              </li>
+            </ul>
+          </div>
+          <li class="photo right">
+            <div class="photo-image">
+              <img
+                src="https://images.unsplash.com/photo-1519832979-6fa011b87667?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1153&q=80"
+                alt="Canada"
+              />
+            </div>
+            <div class="photo-description">
+              <h3 class="photo-title">Canada</h3>
+              <p>
+                Canada has cosmopolitan cities that are clean, safe, friendly,
+                and multicultural. In fact, Canada repeatedly is lauded as one
+                of the world's most livable countries. Whether your interests
+                are river rafting or live theater, Canada won't disappoint.
+              </p>
+            </div>
+            <button class="buttonRight" onclick="myFunctionC()">
+              SEE MORE
+            </button>
+          </li>
+          <div id="hiddenGalCanada">
+            <ul>
+              <li>
+                <img
+                  src="https://images.unsplash.com/photo-1519832979-6fa011b87667?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1153&q=80"
+                  alt="Canada"
+                  width="240"
+                />
+              </li>
+              <li>
+                <img
+                  src="https://images.unsplash.com/photo-1519832979-6fa011b87667?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1153&q=80"
+                  alt="Canada"
+                  width="240"
+                />
+              </li>
+            </ul>
+          </div>
+          <li class="photo left">
+            <div class="photo-image">
+              <img
+                src="https://images.unsplash.com/photo-1525874684015-58379d421a52?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                alt="Rome"
+              />
+            </div>
+            <div class="photo-description">
+              <h3 class="photo-title">Rome</h3>
+              <p>
+                Rome is often referred to as the City of Seven Hills due to its
+                geographic location, and also as the "Eternal City". Rome is
+                generally considered to be the "cradle of Western civilization
+                and Christian culture", and the centre of the Catholic Church.
+              </p>
+            </div>
+            <button class="buttonLeft" onclick="myFunctionB()">SEE MORE</button>
+          </li>
+          <div id="hiddenGalRome">
+            <ul>
+              <li>
+                <img
+                  src="https://images.unsplash.com/photo-1525874684015-58379d421a52?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                  alt="Rome"
+                  width="240"
+                />
+              </li>
+              <li>
+                <img
+                  src="https://images.unsplash.com/photo-1525874684015-58379d421a52?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                  alt="Rome"
+                  width="240"
+                />
+              </li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+    </section>
+    <section class="form">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="form-block">
+          <form action="/" method="post">
+            <div>
+              <input type="text" placeholder="Your Name" />
+            </div>
+            <div>
+              <input type="email" placeholder="Your E-mail" />
+            </div>
+            <div>
+              <input type="text" placeholder="Subject" />
+            </div>
+            <div>
+              <textarea
+                placeholder="Type your message here"
+                rows="6"
+                cols="50"
+              ></textarea>
+            </div>
+            <div>
+              <button class="buttonSubmit" type="submit">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="page-footer">
+        <h6 class="footer-h6">Ⓒ Yevheniia Shevchenko</h6>
+      </div>
+    </footer>
+  </body>
+</html>
